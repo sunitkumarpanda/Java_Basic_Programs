@@ -16,6 +16,7 @@ public class Count_letters_spaces_numbers_characters_of_input_string {
 
             }
             else if(Character.isDigit(ch[i])){
+                num++;
             }
             else if (Character.isSpaceChar(ch[i])){
                 space++;
